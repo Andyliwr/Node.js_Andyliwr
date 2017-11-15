@@ -1,0 +1,23 @@
+{
+  "name": "eslint",
+  "version": "1.0.0",
+  "description": "eslint",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js",
+    "lint": "eslint app.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "andyliwr",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^8.0.2",
+    "eslint": "^4.11.0",
+    "mocha": "^4.0.1"
+  }
+}
